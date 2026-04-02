@@ -1,6 +1,6 @@
 # Pentest Vuln App
 
-`Pentest Vuln App` to celowo podatna aplikacja webowa napisana we Flasku. Służy do ćwiczenia analizy bezpieczeństwa, odtwarzania podatności i opisywania dowodów PoC w kontrolowanym środowisku.
+`Pentest Vuln App` to celowo podatna aplikacja webowa napisana we Flasku w ramch projetu Testy Penetracyjne.
 
 ## O projekcie
 
@@ -20,7 +20,7 @@ W projekcie znajdują się również gotowe materiały pomocnicze do demonstracj
 
 Po uruchomieniu aplikacji wykonywana jest funkcja `create_app()` z pakietu `pentest-app/app/`.
 
-W praktyce oznacza to, że aplikacja:
+Oznacza to, że aplikacja:
 
 - ładuje zmienne środowiskowe z pliku `.env`,
 - tworzy wymagane katalogi dla bazy, sesji i uploadów,
@@ -56,13 +56,6 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 python pentest-app/run.py
-```
-
-## Uruchomienie przez Docker
-
-```powershell
-cd pentest-app
-docker compose up --build
 ```
 
 Po starcie aplikacja będzie dostępna pod `http://127.0.0.1:5000`.
