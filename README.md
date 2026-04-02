@@ -82,8 +82,8 @@ pytest --cov=pentest-app --cov-report=term-missing
 | ID | Nazwa podatności | Realizujący |
 | --- | --- | --- |
 | VULN-01 | Session Fixation | Marek Supierz |
-| VULN-02 | Reflected XSS | do uzupełnienia |
-| VULN-03 | CSRF | do uzupełnienia |
+| VULN-02 | Reflected XSS | Jakub Jordan |
+| VULN-03 | CSRF | Jakub Sokół |
 | VULN-04 | Insecure File Upload | do uzupełnienia |
 | VULN-05 | Command Injection | do uzupełnienia |
 | VULN-06 | Security Misconfiguration | do uzupełnienia |
