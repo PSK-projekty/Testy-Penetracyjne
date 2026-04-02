@@ -40,7 +40,6 @@ Aplikacja domyślnie startuje na porcie `5000` i jest wystawiana pod adresem `ht
 - Python `3.12` lub nowszy,
 - `pip`,
 - opcjonalnie `venv`,
-- opcjonalnie Docker i Docker Compose.
 
 Zależności runtime są opisane w `requirements.txt` w katalogu głównym. Jeśli chcesz uruchomić także testy, użyj pliku `pentest-app/requirements.txt`.
 
