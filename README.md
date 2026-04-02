@@ -81,13 +81,13 @@ pytest --cov=pentest-app --cov-report=term-missing
 
 | ID | Nazwa podatności | Realizujący |
 | --- | --- | --- |
-| VULN-01 | Session Fixation | do uzupełnienia |
+| VULN-01 | Session Fixation | Marek Supierz |
 | VULN-02 | Reflected XSS | do uzupełnienia |
 | VULN-03 | CSRF | do uzupełnienia |
 | VULN-04 | Insecure File Upload | do uzupełnienia |
 | VULN-05 | Command Injection | do uzupełnienia |
 | VULN-06 | Security Misconfiguration | do uzupełnienia |
-| VULN-07 | Path Traversal | do uzupełnienia |
+| VULN-07 | Path Traversal | Andrzej Mysior |
 
 Szczegółowe opisy, payloady i PoC znajdują się w:
 
